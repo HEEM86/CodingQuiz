@@ -1,62 +1,59 @@
 let startButton = document.getElementById('startButton')
+let myQuestionsContainerElement = document.getElementById       
+('theQuestions')
+let myQuestionsElement = document.getElementById ('myQuestions')
+let answerButtonsElement= document.getElementById('answer-buttons')
+
+let mixedQuestions, radarQuestiontracking
 
 startButton.addEventListener('click', startQuiz)
 
 
 function startQuiz()  {
 	console.log('Started')
+	mixedQuestions = myQuestions.sort(() => Math.random() - .5)
+	radarQuestiontracking = 0
 	setQuestion()
 
 }
 
 function nextQuestion() {
-
+	presentQuestion(mixedQuestions[radarQuestiontracking])
 
 
 }
+
+function presentQuestion(myQuestions)
+myQuestionsElement.innerText = myQuestions.myQuestions
 
 function selectAnswer() {
 
 
 }
 
-let questions = [
 
-	{
+let myQuestions = 
 
-		
+	question1 = {
+		question: "What does the JavaScript function do alert do?",
+		correctAnsw: "Pops up a dialog box with text",
+		answers: ["Pops up a dialog box with text", "A file that add styles like fonts and colors to a website", "Diplays a dialog box with a message along with an OK or Cancel button", "Is the standard markup language for creating web page"]
+	},
+	question2 = {
+		question: "What does the JavaScript fucntion confirm do?",
+		correctAnsw: "Diplays a dialog box with a message along with an OK or Cancel buttone",
+		answers: ["Is the standard markup language for creating web page", "Log values in the console", "A language used for developing operating systems, browsers, games etc.", "Diplays a dialog box with a message along with an OK or Cancel button"]
+	},
+	question3 = {
+		question: "What does the JavaScript fuction prompt do?",
+		correctAnsw: "Programming Language",
+		answers: ["Display text in a dialog box that pops up on screeny", "A pop up dialog box that allows user iput", "Diplays a dialog box with a message along with an OK or Cancel button", "A general-purpose scripting language that is especially suited to web development"]
+	},
+	question4 = {
+		question: "What is a Javascript?",
+		correctAnsw: "A language used for developing operating systems, browsers, games",
+		answers: ["A file that add styles like fonts and colors to a website", "Is the standard markup language for creating web pages", "A general-purpose scripting language that is especially suited to web development", "A language used for developing operating systems, browsers, games etc."]
 	}
-
-
-
-
-]
-
-
-
-
-
-// let myQuestions = [
-// 	question1 = {
-// 		question: "What is a Javascript?",
-// 		correctAnsw: "Programming Language",
-// 		answers: ["Library", "Programming Language", "Backend Language", "UI Framework"]
-// 	},
-// 	question2 = {
-// 		question: "What is a Javascript?",
-// 		correctAnsw: "Programming Language",
-// 		answers: ["Library", "Programming Language", "Backend Language", "UI Framework"]
-// 	},
-// 	question3 = {
-// 		question: "What is a Javascript?",
-// 		correctAnsw: "Programming Language",
-// 		answers: ["Library", "Programming Language", "Backend Language", "UI Framework"]
-// 	},
-// 	question4 = {
-// 		question: "What is a Javascript?",
-// 		correctAnsw: "Programming Language",
-// 		answers: ["Library", "Programming Language", "Backend Language", "UI Framework"]
-// 	}
 	
 
 
@@ -82,4 +79,51 @@ let questions = [
 
 // function startQuiz() {
 // 	alert("quiz has started");
-// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

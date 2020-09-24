@@ -21,4 +21,11 @@
 .btn {
   background-color: aqua;
   color: white;
+  
+}
+
+#btn-grid {
+  display: grid;
+  
+
 }
