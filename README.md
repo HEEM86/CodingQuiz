@@ -1,9 +1,9 @@
 ## The Coding Quiz :fire:
 
 
--- main image here --- 
 
-![]()
+
+![Main Image](https://images.unsplash.com/photo-1539628399213-d6aa89c93074?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
 
 
 
@@ -27,20 +27,23 @@ The task of this assignment was to create a dynamic quiz for multiple choic answ
 
 1. Design/Layout - I spent a great deal of time trying to create a acceptable asethic for this quiz. Below I have an image of the inital design, followed up with the active design that I have currently. Although it is incomplete, my goal was to create something unique/original. 
 
--- intial image -- 
+**Intial Design** 
 
-![]()
+![Begning Design](https://raw.githubusercontent.com/HEEM86/CodingQuiz/master/assets/images/initial%20quiz.png)
 
+**Current Design** 
 
--- current image -- 
-
-![]()
+![Current Design](https://raw.githubusercontent.com/HEEM86/CodingQuiz/master/assets/images/current%20quiz.png)
 
 2. Functionality - The questions/answers array, the timer and start functions where very challenging. I did alot of trial and error with documentation that I researched along with implementing things we learned from our daily activities. 
 
 Here's some code of the questions functionality I was trying to figure out. I felt like I was on the right track, but I became frustrated with not finding the solutions. 
 
-![]()
+![Functionaltiy work](https://raw.githubusercontent.com/HEEM86/CodingQuiz/master/assets/images/functionality%20code%201.png)
+
+**Trying to implement the activity timer functionality
+
+![Attempt to incorporate timer functionality](https://raw.githubusercontent.com/HEEM86/CodingQuiz/master/assets/images/timer%20activity%20code%20implementation.png)
 
 3. The biggest challenge was managing my frustration and not navigating accordingly, to get the desired results I wanted. 
 
@@ -52,9 +55,9 @@ This assignment was very challenging, and unfortunately I wasn't able to execute
 I gave it my best shot, I did plan things out the best I could. I created a outline of the project with the questions and some psuedo code outline. 
 
 
--- text project outline ----
 
-![]()
+
+![Text project planing](https://raw.githubusercontent.com/HEEM86/CodingQuiz/master/assets/images/text%20project%20plan.png)
 
 
 ## Author :notebook:
