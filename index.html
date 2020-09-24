@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Hello, world!</title>
   </head>
   <body>
@@ -16,20 +16,20 @@
 
 
 <div class="container">
-<div class="card" style="width: 50rem; margin-top: 20%;">
+<div class="card" style="width: 75rem; margin-top: 17%;">
   <img src="https://viralsolutions.net/wp-content/uploads/2019/06/shutterstock_749036344.jpg" class="card-img-top" alt="...">
    <div class="card-body">
     <h5 class="card-title">Boot Camp Coding Quiz</h5>
     <p class="card-text">Let's see what you've learned so far. Click Start to Begin!</p>
   </div>
-  <ul class="list-group list-group-flush">
-    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">This is a primary list group item</a>
-    <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">This is a secondary list group item</a>
-    <a href="#" class="list-group-item list-group-item-action list-group-item-success">This is a success list group item</a>
-    <a href="#" class="list-group-item list-group-item-action list-group-item-danger">This is a danger list group item</a>
-  </ul>
+  <div class="list-group">
+    <button type="button" class="list-group-item list-group-item-action">Answer A</button>
+    <button type="button" class="list-group-item list-group-item-action">Answer B</button>
+    <button type="button" class="list-group-item list-group-item-action">Answer C</button>
+    <button type="button" class="list-group-item list-group-item-action" disabled>Answer D</button>
+  </div>
   <div class="card-body">
-    <button type="button" class="btn btn-primary">Start Quiz</button>
+    <button id="startButton" class="startButton btn">Start Quiz</button>
   </div>
 </div>
 </div>
@@ -48,7 +48,7 @@
 </div> -->
 
 
-
+    <script src="script.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -57,10 +57,3 @@
   </body>
 </html>
   
-
-  
-
-
-
-
-
