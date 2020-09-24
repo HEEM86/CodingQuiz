@@ -10,11 +10,11 @@
 ## Overview :zap:
 
 
-The task of this assignment was to create a dynamic multiple choice quiz. This quiz conssisted of the following features:
+The task of this assignment was to create a dynamic multiple choice quiz. This quiz consisted of the following features:
 
 1. Expiration Timer
 
-2. Subtracted time for selecting the wrong answer
+2. Subtracted time for selecting the wrong answer(s)
 
 3. Smooth Transition between Questions
 
@@ -25,7 +25,7 @@ The task of this assignment was to create a dynamic multiple choice quiz. This q
 
 ## Challenges :boom: 
 
-1. Design/Layout - I spent a great deal of time trying to create a acceptable asethic for this quiz. Below I have an image of the inital design, followed up with the active design that I have currently. Although it is incomplete, my goal was to create something unique/original. 
+1. Design/Layout - I spent a great deal of time trying to create an acceptable asethic for this quiz. Below I have an image of the inital design, followed up with the active design that I have currently. My goal was to create something unique/original. Also I had an issues trying to implement Bootstrap buttons and badges, and that lead me to incorporate a Bootstrap card design. 
 
 **Intial Design** 
 
@@ -35,25 +35,24 @@ The task of this assignment was to create a dynamic multiple choice quiz. This q
 
 ![Current Design](https://raw.githubusercontent.com/HEEM86/CodingQuiz/master/assets/images/current%20quiz.png)
 
-2. Functionality - The questions/answers array, the timer and start functions where very challenging. I did alot of trial and error with documentation that I researched along with implementing things we learned from our daily activities. 
+2. Functionality - The questions/answers array, the timer/start timer and local storage functions where very challenging. I did alot of trial and error with documentation that I researched along with implementing things we learned from our daily activities. 
 
 Here's a snapshot of some code of the questions functionalities, I was trying to figure out. I felt like I was on the right track, but I became frustrated with not finding the solutions. 
 
 ![Functionaltiy work](https://raw.githubusercontent.com/HEEM86/CodingQuiz/master/assets/images/functionality%20code%201.png)
 
-**Trying to implement the activity timer functionality
+**Trying to implement the activity timer functionality**
 
 ![Attempt to incorporate timer functionality](https://raw.githubusercontent.com/HEEM86/CodingQuiz/master/assets/images/timer%20activity%20code%20implementation.png)
 
-3. The biggest challenge was managing my frustration and not navigating accordingly, to get the desired results I wanted. I was going back and forth changing  "div" classed and id from the HTML file and targeting them appropriately on with my JavaScript file. 
+3. The biggest challenge was managing my frustration and not navigating accordingly, to get the desired results I wanted. I was going back and forth changing "div" classed and id's from the HTML file and targeting them appropriately on with my JavaScript file. 
 
 
-## Conclusion  :bulb: 
+## Conclusion :bulb: 
 
-This assignment was very challenging, and unfortunately I wasn't able to execute on all of the deliverables for this assignment. To be honest, I would say I was very confused going into this project, which resulted in a lack of confidence to find the solutions I needed. 
+This assignment was very challenging, I did the best I could. To be honest, I would say I was very confused going into this project, which resulted in a lack of confidence to find the solutions I needed. 
 
 I gave it my best shot, I did plan things out the best I could. I created a outline of the project with the questions and some psuedo code outline. 
-
 
 
 
