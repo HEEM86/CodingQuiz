@@ -6,49 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    
     <title>Coding Quiz</title>
   </head>
   <body>
-
-    <header>
-      <a id="viewScores">View Scores</a>
-      <span id="timer">Timer</span>
-    </header>
-    <main>
-      <section>
-        <h1>Coding Quiz</h1>
+  <header>
+  <!-- <a id="viewScores">View Scores</a> -->
+    <!-- <span id="timer">Timer</span> -->
+      <h1>Coding Quiz</h1>
         <p>
           Let's test what you've learned so far in BootCamp!
         </p>
-        <button id="start-game" type="button">STart Quiz</button>
-      </section>
+  </header>
 
-      <section>
-        <h2 id="questions">questions are going here</h2>
-        <ul id ="answers">
-
-        </ul>
-      </section>
-
-      <section>
-        <h2 id="highscores">Highscores</h2>
-        <div id="highscore-container">
-
+  
+    <div class="container">
+      <div id="question-container" class="disapper">
+        <div class="answer-group">
+          <a href="#" class="badge badge-primary">Primary</a>
+          <a href="#" class="badge badge-secondary">Secondary</a>
+          <a href="#" class="badge badge-success">Success</a>
+          <a href="#" class="badge badge-danger">Danger</a>
         </div>
-        <button id="restart">Restart</button>
-        <button id="clear"> Clear </button>
-      </section>
+    </div>
+  </div>
+      <div class="operations">
+        <button a href="#"  id="start-button" class="badge badge-warning">Start</button>
+      </div>
+     
+  
 
-    </main>
-    <footer>Footer</footer>
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    
   </body>
 </html>
 
@@ -64,3 +64,23 @@
 
      Use an alert function for "why"
      Use a console.log 
+
+       <section>
+        <h2 id="highscores">Highscores</h2>
+        <div id="highscore-container">
+
+        </div>
+        <button id="restart">Restart</button>
+        <button id="clear"> Clear </button>
+      </section>
+
+
+      <div class="list-group">
+  <button type="button" class="list-group-item list-group-item-action active">
+    Cras justo odio
+  </button>
+  <button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
+  <button type="button" class="list-group-item list-group-item-action">Morbi leo risus</button>
+  <button type="button" class="list-group-item list-group-item-action">Porta ac consectetur ac</button>
+  <button type="button" class="list-group-item list-group-item-action" disabled>Vestibulum at eros</button>
+</div>
