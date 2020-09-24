@@ -10,17 +10,17 @@
 ## Overview :zap:
 
 
-The task of this assignment was to create a dynamic quiz for multiple choic answer quiz. This quiz conssisted of the following features:
+The task of this assignment was to create a dynamic multiple choice quiz. This quiz conssisted of the following features:
 
 1. Expiration Timer
 
-2. Subtract time for selecting the wrong answer
+2. Subtracted time for selecting the wrong answer
 
 3. Smooth Transition between Questions
 
 4. A Score Keeper
 
-5. An input for users to enter in there intials and score that will be saved
+5. An input for users to enter in there intials and score that will be stored
 
 
 ## Challenges :boom: 
@@ -37,7 +37,7 @@ The task of this assignment was to create a dynamic quiz for multiple choic answ
 
 2. Functionality - The questions/answers array, the timer and start functions where very challenging. I did alot of trial and error with documentation that I researched along with implementing things we learned from our daily activities. 
 
-Here's some code of the questions functionality I was trying to figure out. I felt like I was on the right track, but I became frustrated with not finding the solutions. 
+Here's a snapshot of some code of the questions functionalities, I was trying to figure out. I felt like I was on the right track, but I became frustrated with not finding the solutions. 
 
 ![Functionaltiy work](https://raw.githubusercontent.com/HEEM86/CodingQuiz/master/assets/images/functionality%20code%201.png)
 
@@ -45,7 +45,7 @@ Here's some code of the questions functionality I was trying to figure out. I fe
 
 ![Attempt to incorporate timer functionality](https://raw.githubusercontent.com/HEEM86/CodingQuiz/master/assets/images/timer%20activity%20code%20implementation.png)
 
-3. The biggest challenge was managing my frustration and not navigating accordingly, to get the desired results I wanted. 
+3. The biggest challenge was managing my frustration and not navigating accordingly, to get the desired results I wanted. I was going back and forth changing  "div" classed and id from the HTML file and targeting them appropriately on with my JavaScript file. 
 
 
 ## Conclusion  :bulb: 
@@ -64,14 +64,14 @@ I gave it my best shot, I did plan things out the best I could. I created a outl
 
 **Ernest Wesson**
 
-![Ernest Wesson](LinkedIN: https://www.linkedin.com/in/ernest-wesson-b4183b5a/)
+[LinkedIN](LinkedIN:https://www.linkedin.com/in/ernest-wesson-b4183b5a/)
 
 
 ## Credits :star:
 
 MIT License
 
-Copyright (c) [2020] [Ernest]
+Copyright (c) [2020] [Ernest Wesson]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
