@@ -52,7 +52,7 @@ Here's a snapshot of some code of the questions functionalities, I was trying to
 
 This assignment was very challenging, I did the best I could. To be honest, I would say I was very confused going into this project, which resulted in a lack of confidence to find the solutions I needed. 
 
-I gave it my best shot, I did plan things out the best I could. I created a outline of the project with the questions and some psuedo code outline. 
+I did plan things out the best I could. I created a outline of the project with the questions and some psuedo code outline. 
 
 
 
